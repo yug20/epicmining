@@ -1,0 +1,62 @@
+{
+    "leaders": [
+        {
+            "id": 1,
+            "className": "bitcoinslider",
+            "quotes": "https://project.delemontstudio.com/epic-mining/Images/quotes.png",
+            "details": "Bitcoin is the dominant digital monetary network. The next billion members will pay trillions to join. You might want to join first.",
+            "leadersimg": "https://project.delemontstudio.com/epic-mining/Images/michael1.png",
+            "name": "Michael Saylor"
+        },
+        {
+            "id": 2,
+            "className": "bitcoinslider",
+            "quotes": "https://project.delemontstudio.com/epic-mining/Images/quotes.png",
+            "details": "Bitcoin reminds me so much of the internet stocks of 1999 because the internet was in its infancy. No one knew how to value it because of the world of possibility that lay ahead.",
+            "leadersimg": "https://project.delemontstudio.com/epic-mining/Images/michael2.png",
+            "name": "Paul Tudor Jones"
+        },
+         {
+            "id": 3,
+            "className": "bitcoinslider",
+            "quotes": "https://project.delemontstudio.com/epic-mining/Images/quotes.png",
+            "details": "Bitcoin is the dominant digital monetary network. The next billion members will pay trillions to join. You might want to join first.",
+            "leadersimg": "https://project.delemontstudio.com/epic-mining/Images/michael1.png",
+            "name": "Michael Saylor"
+        },
+        {
+            "id": 4,
+            "className": "bitcoinslider",
+            "quotes": "https://project.delemontstudio.com/epic-mining/Images/quotes.png",
+            "details": "Bitcoin reminds me so much of the internet stocks of 1999 because the internet was in its infancy. No one knew how to value it because of the world of possibility that lay ahead.",
+            "leadersimg": "https://project.delemontstudio.com/epic-mining/Images/michael2.png",
+            "name": "Paul Tudor Jones"
+        }
+    ],
+    "power": [
+        {
+            "id": 1,
+            "images": "https://project.delemontstudio.com/epic-mining/Images/power1.png",
+            "title": "Discount",
+            "description": "As a Bitcoin miner you get the chance to acquire Bitcoin at a discount compared to the public markets."
+        },
+        {
+            "id": 2,
+            "images": "https://project.delemontstudio.com/epic-mining/Images/power2.png",
+            "title": "Daily payouts",
+            "description": "As a Bitcoin miner you receive daily payouts 365 days a year."
+        },
+        {
+            "id": 3,
+            "images": "https://project.delemontstudio.com/epic-mining/Images/power3.png",
+            "title": "Hedge against volatility",
+            "description": "No matter if the markets are high or low, we still earn money with Bitcoin mining."
+        },
+        {
+            "id": 4,
+            "images": "https://project.delemontstudio.com/epic-mining/Images/power4.png",
+            "title": "Passive income source",
+            "description": "Mining Bitcoin is a great source of passive income, which only requires a couple of minutes of your time every day."
+        }
+    ]
+}

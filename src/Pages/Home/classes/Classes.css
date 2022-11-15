@@ -1,0 +1,184 @@
+section.Classes {
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 130px;
+}
+
+section.Classes:after {
+    content: "";
+    position: absolute;
+    background-image: url(../../../Assets/Images/herosmallcoin.png);
+    background-repeat: no-repeat;
+    height: 143px;
+    width: 143px;
+    left: 120px;
+    top: 71px;
+}
+
+h3.assetsclass {
+    text-align: center;
+}
+
+p.returns {
+    max-width: max-content;
+    margin: auto;
+}
+
+.bitvsother {
+    margin-bottom: 57px;
+}
+
+.three_bitcoin img {
+    width: 376px;
+    height: auto;
+}
+
+.three_bitcoin {
+    text-align: center;
+}
+
+ul.far {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li.gold_bitcoin {
+    width: 33%;
+}
+
+.three_bitcoin img {
+    width: 376px;
+    height: auto;
+}
+
+.three_bitcoin {
+    text-align: center;
+}
+
+ul {}
+
+ul.far {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li.gold_bitcoin {
+    width: 33%;
+}
+
+.background_bitcoin {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 30px;
+    width: 428px;
+    height: 230px;
+    margin: auto;
+    position: relative;
+}
+
+h6.persentage {
+    font-family: var(--fontfamilly);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+    letter-spacing: -0.04em;
+    color: #160647;
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+span.colorclass {
+    font-family: var(--fontfamilly);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.07em;
+    color: #45D399 !important;
+}
+
+p.bitcoin_years {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    text-align: center !important;
+    letter-spacing: -0.02em;
+    color: #34404A;
+}
+
+span.coin_name.colorclass {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.background_bitcoin:after {
+    background-color: #fff;
+    content: "";
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    bottom: -18px;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -9;
+    border-radius: 13px;
+}
+
+span.coin_name {
+    font-family: var(--fontfamilly);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    color: #6452FE;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avarage_gold p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 170% */
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #34404A;
+}
+
+.avarage_gold.background_bitcoin h6 {
+    text-align: center;
+}
+
+.avarage_gold.over_gold {
+    margin-bottom: 174px;
+}
+
+.avarage_gold.losing_case h6 {
+    text-align: left;
+}
+
+.avarage_gold.losing_case span {
+    justify-content: flex-start;
+}
+
+.avarage_gold.losing_case p {
+    text-align: left;
+}

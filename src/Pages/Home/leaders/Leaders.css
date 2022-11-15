@@ -1,0 +1,60 @@
+/* section.leaders {
+    overflow: inherit;
+} */
+
+.industry {
+    padding-left: 120px;
+    max-width: 658px;
+}
+
+img.quotes {
+    width: auto !important;
+    margin-bottom: 22px;
+}
+
+.leaders_saylor img {
+    width: auto !important;
+    margin-right: 20px;
+}
+
+.leaders_saylor {
+    display: flex;
+    align-items: center;
+}
+
+.bitcoinslider p {
+    margin-bottom: 35px;
+}
+
+.bitcoinslider {
+    background: #FFFFFF;
+    border-radius: 38px;
+    padding: 40px;
+    /* height: 436px;
+    width: 350px; */
+    margin-right: 40px;
+}
+
+.bitcoin_leaderss .owl-nav {
+    position: absolute;
+    left: -92.2%;
+    top: 77%;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.bitcoin_leaderss .owl-nav button {
+    background: transparent;
+}
+
+.bitcoin_leaderss .owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+}
+
+.bitcoin_leaderss .owl-nav button.owl-prev {
+    margin-right: 30px;
+}
+
+section.leaders {
+    padding-bottom: 130px;
+}

@@ -1,0 +1,573 @@
+section {
+  overflow: hidden;
+}
+
+.herodetail h1 {
+  font-family: var(--fontfamilly);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  /* or 115% */
+  letter-spacing: -0.07em;
+  color: #15181c;
+}
+
+.herodetail h1 span {
+  color: rgba(100, 82, 254, 1);
+}
+
+.herodetail p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.02em;
+  color: #34404a;
+  margin: 30px 0px;
+}
+
+.herobtns a {
+  width: 240px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  color: #15181c;
+}
+
+.herobtns {
+  display: flex;
+}
+
+a.btnpurple {
+  background: #6452fe;
+  border-radius: 60px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+a.btnpurple svg {
+  margin-right: 10px;
+}
+
+.herodetail p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.02em;
+  color: #34404a;
+  margin: 30px 0px;
+}
+
+.herobtns a {
+  width: 240px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  color: #15181c;
+}
+
+.herobtns {
+  display: flex;
+}
+
+a.btnpurple {
+  background: #6452fe;
+  border-radius: 60px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+a.btnpurple svg {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section.herosection {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  position: absolute;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.herodetail p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.02em;
+  color: #34404a;
+  margin: 30px 0px;
+}
+
+.herobtns a {
+  width: 240px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  color: #15181c;
+}
+
+.herobtns {
+  display: flex;
+}
+
+a.btnpurple {
+  background: #6452fe;
+  border-radius: 60px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+a.btnpurple svg {
+  margin-right: 10px;
+}
+
+a.btnpurple {}
+
+a {
+  text-decoration: none;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  position: absolute;
+  width: 100%;
+}
+
+section.herosection .row {
+  align-items: center;
+}
+
+.heroimg {
+  position: relative;
+}
+
+span.coin {
+  position: absolute;
+  right: 20px;
+}
+
+.heroimg {
+  position: relative;
+}
+
+span.coin {
+  position: absolute;
+  right: -60px;
+  bottom: 0;
+}
+
+span.smallcoin {
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+ul.brand {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.herobtns a:hover svg path {
+  stroke: black;
+  /* fill: black; */
+}
+
+ul.ourfeaturedetail {
+  padding: 30px 0 0 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+ul.ourfeaturedetail li {
+  width: 33%;
+  padding: 60px;
+}
+
+.featuremain {
+  /* background: #FFFFFF; */
+  /* box-shadow: 0px 24px 44px rgba(209, 230, 243, 0.5); */
+  /* border-radius: 34px; */
+  position: relative;
+}
+
+.featuretitle h3 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  color: #15181c;
+  padding: 30px 80px;
+}
+
+section.ourfeature {
+  padding: 100px 0px;
+}
+
+.featuremain:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  right: -3px;
+  width: 81%;
+  height: 99px;
+  background: #e8f6ff;
+  border-radius: 0px 0px 0px 30px;
+}
+
+.featuretitle h3 {
+  margin: 0;
+  background: white;
+  border-radius: 30px;
+}
+
+ul.ourfeaturedetail h4 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+  color: #15181c;
+  margin: 20px 0;
+}
+
+ul.ourfeaturedetail p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #515f6a;
+}
+
+ul.ourfeaturedetail {
+  background: #ffffff;
+  box-shadow: 0px 24px 44px rgb(209 230 243 / 50%);
+  border-radius: 34px;
+}
+
+.featuretitle {
+  display: flex;
+  margin-bottom: -49px;
+}
+
+h3.ourconcepttitle {
+  font-family: var(--fontfamilly);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  /* or 129% */
+  letter-spacing: -0.07em;
+  color: #15181c;
+}
+
+p.world {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #34404a;
+  max-width: 547px;
+}
+
+ul.conceptnumber {
+  padding: 0;
+  list-style: none;
+}
+
+ul.conceptnumber span {
+  font-family: var(--fontfamilly);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  color: #15181c;
+  width: 350px;
+}
+
+ul.conceptnumber p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  letter-spacing: -0.02em;
+  color: #34404a;
+  margin: 0;
+}
+
+ul.conceptnumber li {
+  display: flex;
+  align-items: center;
+}
+
+ul.conceptnumber li {
+  border-bottom: 1px solid #c8d1d9;
+  padding: 30px 0px;
+}
+
+ul.conceptnumber li:last-child {
+  border: none;
+}
+
+/* 
+.ourconceptmain .row {
+  align-items: center;
+} */
+
+section.ourconcept {
+  padding: 100px 0px;
+}
+
+.economicsslider {
+  display: flex;
+  height: 100vh;
+  overflow: auto;
+}
+
+ul.ecoslide1 {
+  list-style: none;
+}
+
+.economicsslider ul {
+  list-style: none;
+  padding: 0;
+}
+
+.economicsslider ul li .economicsinfo {
+  background: #241a43;
+  border-radius: 30px;
+  padding: 30px;
+  max-width: 340px;
+}
+
+.economicsinfo h4 {
+  font-family: var(--fontfamilly);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  /* or 136% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  color: white;
+  margin: 20px 0;
+}
+
+.economicsinfo p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.economicsslider ul li {
+  margin-bottom: 40px;
+}
+
+ul.ecoslide1 li {
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+ul.ecoslide2 {
+  margin-top: 150px;
+}
+
+.economcstitle span {
+  font-family: var(--fontfamilly);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+
+  /* 3 */
+  color: #45d399;
+}
+
+.economcstitle h3 {
+  font-family: var(--fontfamilly);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 95px;
+  /* identical to box height, or 119% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.07em;
+  color: #ffffff;
+}
+
+.economcstitle p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+section.oureconomics {
+  background-color: #0c012f;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../../../Assets/Images/economicbg.png);
+}
+
+.economcstitle {
+  margin-top: 170px;
+}
+
+span.machine {
+  position: absolute;
+  bottom: 0;
+}
+
+section.oureconomics {
+  position: relative;
+}
+
+a.btnpurple.joinnow svg {
+  animation: hammer 2s linear infinite;
+}
+
+@keyframes hammer {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+/* scrollbar */
+/* section scrollbar */
+.economicsslider::-webkit-scrollbar {
+  width: 5px;
+}
+
+.economicsslider::-webkit-scrollbar-thumb {
+  background: #6452fe;
+  border-radius: 4px;
+  position: absolute;
+  /* width: 24px; */
+}
+
+.economicsslider::-webkit-scrollbar-track {
+  /* height: 100px !important; */
+  background: rgb(255 255 255 / 10%);
+}

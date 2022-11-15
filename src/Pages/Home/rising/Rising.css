@@ -1,0 +1,74 @@
+.adopt {
+    height: 50vh;
+    overflow: auto;
+    position: relative;
+}
+
+section.rising {
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+
+h6.years {
+    text-align: left;
+}
+
+.tender p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    letter-spacing: -0.02em;
+    color: #15181C;
+    max-width: 516px;
+}
+
+h3.ourconcepttitle span {
+    /* font-family: 'Lexend Deca'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    /* or 190% */
+    letter-spacing: -0.07em;
+    color: #15181C;
+    font-family: var(--fontfamilly);
+}
+
+.bit_rising_asset h3 {
+    max-width: 421px;
+}
+
+.tender {
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 11.2rem;
+}
+
+.tender::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../../Assets/Images/line.png);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0px;
+    width: 30px;
+    height: 130px;
+}
+
+section.rising .col-lg-6 {
+    position: relative;
+}
+
+section.rising .col-lg-6:last-child:before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, rgba(232, 246, 255, 0) 0%, #E8F6FF 96.87%);
+    bottom: 0;
+    right: 20px;
+    width: 808px;
+    height: 252px;
+    z-index: 1;
+}

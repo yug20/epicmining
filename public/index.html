@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="./fonts/stylesheet.css" />
+  <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script> -->
+  <title>Epic Mining</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+  <script>
+    $(window).scroll(function () {
+      var theta = $(window).scrollTop() / 600;
+      $("#js-logo").css({
+        transform: "rotate(" + theta + "rad)"
+      });
+    });
+    $(window).scroll(function () {
+      var theta = $(window).scrollTop() / 200;
+      $(".js-logos").css({
+        bottom: "0",
+        transform: "rotate(" + theta + "rad)",
+      });
+    });
+
+    SmoothScroll({
+      animationTime: 950,
+      stepSize: 150,
+      accelerationDelta: 30,
+      accelerationMax: 2,
+      keyboardSupport: true,
+      arrowScroll: 50,
+      pulseAlgorithm: true,
+      pulseScale: 4,
+      pulseNormalize: 1,
+      touchpadSupport: true,
+    });
+
+    var arescrolling = 0;
+
+    function scroller(from, to) {
+      if (arescrolling) return; // avoid potential recursion/inefficiency
+      arescrolling = 1;
+      // set the other div's scroll position equal to ours
+      document.getElementById(to).scrollTop =
+        document.getElementById(from).scrollTop;
+      arescrolling = 0;
+    }
+
+    $(document).ready(function () {
+      $('.home').click(function () {
+        $('.home').addClass('active')
+      });
+
+      $(".navbar-toggler").click(function () {
+        $('html').toggleClass('show-menu');
+      });
+
+      $(".navbar-toggler a").click(function () {
+        $(".navbar-collapse").removeClass("show");
+      });
+    })
+  </script>
+</body>
+
+</html>
